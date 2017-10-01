@@ -1,0 +1,20 @@
+.FiledList li{
+padding: 1em 0em;
+}
+.title{
+    padding:0 !important;
+}
+
+.footer{
+    padding:10px !important;
+}
+table th, td {
+   
+    border: 1px solid;
+    text-align: center;
+}
+table{
+    width: 100%;
+    word-wrap: break-word;
+    border: 1px solid;
+}
