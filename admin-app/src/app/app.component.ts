@@ -10,10 +10,10 @@ import { UserService } from './services/users.service'
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
- providers :[PermissionService, RoleService, ModuleService, UserService]
-  
+ providers :[
+   MenuComponent,HeaderComponent,PermissionService, RoleService, ModuleService, UserService
+   ]  
 })
-
 
 export class AppComponent {
   title = 'User and Role Administration';

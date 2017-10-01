@@ -1,23 +1,20 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+
 
 @Injectable()
 export class PermissionService {
   private _permissionList: Permission[] = [];
   private confirmationMsg: string;
-  constructor(private http: HttpClient ) {
+  constructor( ) {
   }
 
   SaveRecord(_p: Permission) {
     try {
       this._permissionList.push(_p);
-      const body = { name: _p.name, desc: _p.description };
-      const url="http://localhost:1027/api/add/pm";
-      this.http.post(url, body).subscribe();    
       
     }
     catch (error) {
-      alert('error occured.');
+      
       return error;
     }
     return "Permission record added successfully!";

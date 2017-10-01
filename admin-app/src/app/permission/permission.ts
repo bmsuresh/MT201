@@ -6,7 +6,6 @@ import { PermissionService, Permission } from './../services/permission.service'
     selector: 'permission',
     templateUrl: './permission.html',
     styleUrls: ['./permission.css'],
-
 })
 
 export class PermissionComponent {
