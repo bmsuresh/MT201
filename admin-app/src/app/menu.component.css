@@ -1,0 +1,18 @@
+ul{
+    display: inline;
+}
+ul li {
+    display: block;
+    float: left;
+    padding-inline-end: 0px;
+}
+ul .btn {
+    padding: 0px 0px !important;
+    color: #ffffff !important;
+}
+
+ul .btn a {
+    background-color:none !important;  
+    color: #ffffff !important;
+}
+
