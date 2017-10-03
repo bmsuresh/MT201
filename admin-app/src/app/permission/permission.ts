@@ -50,6 +50,7 @@ export class PermissionComponent {
 
     ClearAll(){
         this.isEdit = false;
+        this.GetRecordList();
         this.init();
     }
 }

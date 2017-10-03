@@ -4,17 +4,20 @@
         <ul class="list-unstyled FiledList">
             <li>
                 <div class="FieldLable">Name</div>
-                <div class="FiledValue"><input type="text" id="txtName" name="txtName" [(ngModel)]="this._permission.name"> </div>
+                <div class="FiledValue">
+                    <input type="text" id="txtName" name="txtName" [(ngModel)]="this._permission.name"> </div>
             </li>
             <li>
                 <div class="FieldLable">Description</div>
-                <div class="FiledValue"> <textarea name="txtDescription" id="txtDescription" [(ngModel)]="this._permission.description" cols="70"
-                        rows="3"></textarea> </div>
+                <div class="FiledValue">
+                    <input type="text" id="txtDescription" name="txtDescription" [(ngModel)]="this._permission.description"> 
+                    <!--<textarea name="txtDescription" id="txtDescription" [(ngModel)]="this._permission.description" cols="70" rows="3"></textarea>-->
+                </div>
             </li>
         </ul>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12">
-        <h4> Permission List : Total {{ this._permissionList.length }} records. </h4>
+        <h4> Permission List : Total  this._permissionList.length  records. </h4>
         <table class="table table-responsive table-striped">
             <thead>
                 <th>#</th>
