@@ -1,0 +1,12 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 5666-0824
+
+ Directory of C:\Users\v-surmat\Expertise\MT201
+
+11/16/2017  08:59 PM    <DIR>          .
+11/16/2017  08:59 PM    <DIR>          ..
+09/30/2017  06:45 PM    <DIR>          admin-app
+11/16/2017  08:59 PM                 0 filelist.txt
+09/30/2017  06:16 PM                23 README.md
+               2 File(s)             23 bytes
+               3 Dir(s)  241,942,614,016 bytes free
