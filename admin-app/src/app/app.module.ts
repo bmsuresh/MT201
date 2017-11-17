@@ -2,9 +2,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
-import { HttpClientModule } from '@angular/common/http';
-import { HttpClient } from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { Http } from '@angular/http';
 
 import { RouterModule } from '@angular/router';
 import { routes } from './app.route'
@@ -19,7 +18,6 @@ import { UserRoleMapingComponent } from './userrolemaping/userrolemaping';
 import { UserModuleMappingComponent } from './usermodulemapping/usermodulemapping';
 
 import { ModuleComponent } from  './module/module';
-
 
 @NgModule({
   declarations: [
@@ -38,9 +36,8 @@ import { ModuleComponent } from  './module/module';
     BrowserModule,
     FormsModule,
     RouterModule,
-    routes,
     HttpClientModule,
-    HttpClient
+    routes
   ],
   providers: [],
   bootstrap: [AppComponent]

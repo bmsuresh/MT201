@@ -6,7 +6,6 @@ import { PermissionService, Permission } from './../services/permission.service'
     selector: 'permission',
     templateUrl: './permission.html',
     styleUrls: ['./permission.css'],
-
 })
 
 export class PermissionComponent {
@@ -51,6 +50,7 @@ export class PermissionComponent {
 
     ClearAll(){
         this.isEdit = false;
+        this.GetRecordList();
         this.init();
     }
 }
